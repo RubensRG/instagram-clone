@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intagram-Clone</title>
+    <!-- FAVICON -->
+    <link rel="icon" href="images/favicon.png">
+    
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">
+
+<!-- APP CSS -->
+<link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="main-content">
+                <div class="slide-container" style="background-image: url(images/phone-frame.png);">
+                    <div class="slide-content" id="slide-content">
+                        <img src="images/slide (1).jpg" alt="slide image" class="active">
+                        <img src="images/slide (2).jpg" alt="slide image">
+                        <img src="images/slide (3).jpg" alt="slide image">
+                        <img src="images/slide (4).jpg" alt="slide image">
+                        <img src="images/slide (5).jpg" alt="slide image">
+                    </div>
+                </div>
+                <div class="form-container">
+                    <div class="form-content box">
+                        <div class="logo">
+                            <img src="images/logo-light.png" alt="Instagram logo" class="logo-light">
+                            <img src="images/logo-dark.png" alt="Instagram logo" class="logo-dark">
+                        </div>
+                        <div class="signin-form" id="signin-form">
+                            <div class="form-group">
+                                <div class="animate-input">
+                                    <span>
+                                        Telefone, nome de usuário ou email
+                                    </span>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="animate-input">
+                                    <span>
+                                        Senha
+                                    </span>
+                                    <input type="password">
+                                    <button>Mostrar</button>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn-login" id="signin-btn" disabled>
+                                   Entrar
+                                </button>
+                            </div>
+                            <div class="divine">
+                                <div></div>
+                                <div>OU</div>
+                                <div></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="btn-fb">
+                                    <button class="btn-fb">
+                                        <img src="images/facebook-icon.png" alt="">
+                                        <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%25221d63uus9ctf0f3d2pud1i4tnadoiyv641fxa9xhghj5aokz1fg8%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Dpt_BR%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D567c99fc-ef4d-472b-b664-da9b25e95392%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25221d63uus9ctf0f3d2pud1i4tnadoiyv641fxa9xhghj5aokz1fg8%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=pt_BR&pl_dbl=0">
+                                            <span>Entrar com o Facebook</span>
+                                        </a>
+                                    </button>
+                                </div>
+                                <a href="https://www.instagram.com/accounts/password/reset/" class="forgot-pw">Esqueceu a senha?</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="box goto">
+                        <p>
+                            Não tem uma conta?
+                            <a href="https://www.instagram.com/accounts/emailsignup/">Cadastre-se</a>
+                        </p>
+                    </div>
+
+                    <div class="app-download">
+                       <p>Obtenha o aplicativo.</p> 
+                       <div class="store-link">
+                           <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo" target="blank">
+                               <img src="images/app-store.png" alt="app store">
+                           </a>
+                           <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb&utm_campaign=loginPage&ig_mid=02A15CA3-E521-4BE7-94BB-319A8DEBB4D9&utm_content=lo&utm_medium=badge" target="blank">
+                               <img src="images/gg-play.png" alt="google play">
+                           </a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="links">
+                <a href="https://about.facebook.com/meta" target="blank">Meta</a>
+                <a href="https://about.instagram.com/" target="blank">Sobre</a>
+                <a href="https://about.instagram.com/blog"target="blank">Blog</a>
+                <a href="https://about.instagram.com/about-us/careers">Carreiras</a>
+                <a href="https://help.instagram.com/"target="blank">Ajuda</a>
+                <a href="https://developers.facebook.com/docs/instagram"target="blank">API</a>
+                <a href="https://help.instagram.com/519522125107875">Privacidade</a>
+                <a href="https://help.instagram.com/581066165581870">Termos</a>
+                <a href="https://www.instagram.com/directory/profiles/">Principais contas</a>
+                <a href="https://www.instagram.com/directory/hashtags/">Hashtags</a>
+                <a href="https://www.instagram.com/explore/locations/">Localizações</a>
+                <a href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+                <a href="https://www.instagram.com/topics/beauty/">Beleza</a>
+                <a href="https://www.instagram.com/topics/dance-and-performance/">Dança</a>
+                <a href="https://www.instagram.com/topics/fitness/">Fitness</a>
+                <a href="https://www.instagram.com/topics/food-and-drink/">Comida e bebida</a>
+                <a href="https://www.instagram.com/topics/home-and-garden/">Casa e jardim</a>
+                <a href="https://www.instagram.com/topics/music/">Música</a>
+                <a href="https://www.instagram.com/topics/visual-arts/">Artes visuais</a>
+                <a href="" id="darkmode-toggle">Modo escuro</a>
+            </div>
+            <div class="copyright">
+                © 2021 Instagram from Meta
+            </div>
+        </div>
+    </div>
+    
+<!-- APP JS -->
+<script src="app.js"></script>
+
+</body>
+</html>
