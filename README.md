@@ -1,6 +1,6 @@
 # instagram-clone
 ## Clone da interface do instagram
-## Recriando interface do Instagram para o desafio da digital Innovation One
+## Recriando interface do Instagram para o desafio da Digital Innovation One
 ![View Clone-Instagram](https://user-images.githubusercontent.com/92815722/142732765-4f0abae3-bf0f-46c5-a71d-6ba216e6d12f.png)
 
 ## Preview do site no Desktop
